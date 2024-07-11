@@ -218,6 +218,16 @@ article a {
     gap: 10px;
 }
 
+.galeria img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+    opacity: 0.9;
+    transition: all 0.5s;
+}
+
 .section-duvidas {
     display: flex;
     justify-content: space-between;
