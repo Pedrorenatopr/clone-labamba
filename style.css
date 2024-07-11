@@ -54,6 +54,12 @@ article a {
     color: white;
 }
 
+
+.box-bt:hover {
+    scale: 1.01;
+    transition: all 0.5s;
+}
+
 .img-ifood {
     padding-top: 10px;
 }
@@ -199,11 +205,18 @@ article a {
     padding-top: 50px;
 }
 
+
 .bt-section-cinco {
     font-size: 18px;
     border-radius: 6px;
     background: linear-gradient(90deg, #FC6235 0%, #FCA035 100%);
     padding: 11.8px 23.648px 12.19px 24px;
+}
+
+.bt-section-cinco:hover {
+    cursor: pointer;
+    scale: 1.03;
+    transition: all 0.5s;
 }
 
 .bt-section-cinco a {
@@ -219,7 +232,6 @@ article a {
 }
 
 .galeria img {
-    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -338,6 +350,12 @@ details ul {
     border-radius: 6px;
     background: linear-gradient(90deg, #FC6235 0%, #FCA035 100%);
     padding: 11.8px 23.648px 12.19px 24px;
+    cursor: pointer;
+}
+
+.bt-sobre:hover {
+    scale: 1.03;
+    transition: all 0.5s;
 }
 
 .bt-sobre a {
